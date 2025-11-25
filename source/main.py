@@ -18,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--report",
         default="performance",
-        help="Название отчета (поддерживается только 'performance').",
+        help="Название отчета (по умолчанию 'performance').",
     )
     return parser.parse_args()
 
